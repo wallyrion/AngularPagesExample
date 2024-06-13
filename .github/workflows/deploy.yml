@@ -40,7 +40,7 @@ jobs:
 
       - name: Prepare and deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npm run ng -- deploy --repo="https://github.com/wallyrion/AngularPagesExample.git" --base-href=/AngularPagesExample/ --name="wallyrion" --email=kornienko1296@gmail.com
 
