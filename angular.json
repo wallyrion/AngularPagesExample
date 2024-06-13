@@ -97,8 +97,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "repo": "https://github.com/wallyrion/AngularPagesExample.git"
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
