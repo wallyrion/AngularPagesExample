@@ -39,5 +39,5 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: ng deploy --repo=https://github.com/wallyrion/AngularPagesExample.git
+        run: npm run ng deploy --repo=https://github.com/wallyrion/AngularPagesExample.git
 
