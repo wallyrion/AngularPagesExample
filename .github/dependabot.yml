@@ -4,6 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      angular:
+        patterns:
+          - "@angular/*"
+          - "@angular-devkit/*"
+      typescript-eslint:
+        patterns:
+          - "@typescript-eslint/*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
